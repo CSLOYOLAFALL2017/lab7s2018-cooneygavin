@@ -1,0 +1,100 @@
+Grace Cooney, Nick Gavin, Michael Vanaria
+Lab 7 Algorithm
+
+#Functions's purpose: read in a file name from the user and return it once they give one that exists
+#Parameters: None
+#Return: file name
+<<<<<<< HEAD
+
+1.) Import os
+2.) create functions
+3.) read file
+
+import os
+def fileName():
+    fileInput=input("What file would you like to read?)
+    while not os.path.exists(fileInput)
+        fileInput=input("What file would you like to read?")
+    return file_input
+
+
+
+
+
+
+
+
+=======
+1) Import os
+2) Ask user for file name
+3) Loop until the user enters a valid file name
+4) Return file name
+>>>>>>> origin/master
+
+
+#Function's purpose: Process the file
+#Parameters: file name of file to read from
+#Return: The maximum profit
+<<<<<<< HEAD
+
+1.) separate information
+2.) print movie with greatest revenue
+
+def profit(fileInput):
+    profit_file=open(fileInput, "r")
+    profitMade = 0
+    for line in profit_file:
+        date, title, budget, gross = profit_file.split(",")
+        gross - budget = movieProfit
+        if movieProfit > profitMade:
+            profitMade = line
+    print(profitMade)
+
+
+
+=======
+1) Open movies.csv file
+2) Read lines in file
+3) Split lines into date, title, budget, and gross and read line by line in file suing line.split(",")
+4) Loop to find the maximum profit (gross-budget)
+5) Convert budget and gross into floats
+6) Return maximum profit
+>>>>>>> origin/master
+
+
+#Function's purpose: Process the file
+#Parameters: file name of file to read from, file name of file to write to
+#Return: None
+<<<<<<< HEAD
+
+1.) create function to open new file to write and read previous file
+2.) write information from original file being read to the new file
+=======
+1) Open movies.csv file to read
+2) Ask user to name the new file
+3) Open new file to write in
+4) Loop to process old lines in file
+5) Write the information from the old file into the new file (line by line)
+5) Close the new file
+>>>>>>> origin/master
+
+
+#Function's purpose: main
+#Parameters: None
+#Return: None
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+=======
+1) Create main function
+2) Put all the other functions into the main function
+3) Output the file name, the highest movie profit, and tell user their new file has been saved
+4) Call main function
+>>>>>>> origin/master
